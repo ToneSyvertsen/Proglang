@@ -1,0 +1,68 @@
+body {
+  font-family: 'sans-serif'
+   padding: 100px;
+  font-size: 22px;
+  text-align: center;
+}
+
+ul {
+text-align: center;
+list-style-type: none;
+}
+
+
+.A
+{
+color: red;
+}
+
+.B
+{
+color: blue;
+}
+.C
+{
+color: yellow;
+}
+.D
+{
+color: green;
+}
+.E
+{
+color: brown;
+}
+.F
+{
+color: grey;
+}
+.G
+{
+color: purple;
+}
+.H
+{
+color: black;
+}
+.J
+{
+color: orange;
+}
+.L
+{
+color: pink;
+}
+.P
+{
+color: beige;
+}
+.R
+{
+color: olive;
+}
+.S
+{
+color: peru;
+}
+
+
