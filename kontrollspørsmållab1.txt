@@ -1,0 +1,44 @@
+Kontrollspørsmål
+Spørsmålene besvares i egen tekstfil (“ren” tekst, ASCII) med navn readme.txt
+0) Les introduksjon til JavaScript på http://w3schools.com/js/js_intro.asp og svar på følgende
+spørsmål, ­ hva kan JavaScript brukes til?
+
+Javaskript er en enkel utgave av programmeringsspråk og gjør sidene dynamiske, slik at man slipper å endre hele koden hver gang.
+
+1) Les minst de to gitte linkene og forklar med dine egne ord forskjell på CSS id og class
+elementer http://www.tizag.com/cssT/cssid.php,http://css­tricks.com/the­difference­between­id­and­class/
+
+En klasse kan brukes flere ganger på siden, mens hver enkelt id kun kan brukes en gang.
+Men de gjør ellers det samme, de legger en bestemt stil til den/de merkede paragrafene eller linjene  og overskriver den overskriver verdien som er satt for hele siden.
+
+2) Vurder og sammenlign brukbarhet til versjoner i deloppgave 0 og deloppgave 1 av designet
+for presentasjon av en liste (ta utgangspunkt at listen er mye lengre enn vist i skjermbildene,
+over 100 elementer).
+
+Ved mange filer blir designet på siden mere oversiktelig og rent ved å bruke "rullegardin", 
+spesielt hvis det er mange lister på samme side.
+
+3) Med hvilken HTML teknikk og designløsning løser Wikipedia
+(http://en.wikipedia.org/wiki/List_of_programming_languages) problemstilling med en lang liste
+av programmeringsspråk?
+
+Wikipedia bruker Class i sin css, dette er nok enklest da de bruker samme class på mange av tabellene. Dette kunne de som nevn tidligere ikke gjort om de brukte id.
+De har også valgt å ta bort linjeskift og unødvendig tekst i kildekoden sin.
+
+
+4) Ved å søke på WWW finn ut selv og forklar kort hva som er hovedforskjeller mellom et
+<div> og et <span> element (tagg) i HTML.
+
+"div" er et blockelement, mens <span> er et inlineelement. 
+Du kan blandt annet se dette ved at det er en tom linje etter "div".
+Begge kan brukes til å "bokse inn" tekstbolker i css
+
+5) Hvike brukbarhetsproblemer er det med den siste versjonen av implementeringen i
+deloppgaven 2? Nevn gjerne hvordan man kunne løse problemene. (Tips: overlapp mellom
+forskjellige grafiske elementer og tilfelle hvor man ønsker å selektere det første navnet på
+programmeringsspårket i listen)
+
+Alternativ en kan ikke velges før man har trykket på et av de andre alternativene. jeg har valgt å løse dette medd å legge til en ekstra linje øverst, som heter velg programmeringsspråk.
+
+
+
