@@ -1,0 +1,90 @@
+
+
+
+  
+ /*Her legges bakgrunnfarge, skriftfarge, type og marger for hoveddelen av dokumentet.*/
+  body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #9999FF }
+
+ /*Css som beskriver menyens plassering og "type"*/
+  ul.navbar {
+  
+   /*denne fjerner prikkenene i lista*/
+    list-style-type: none;
+    
+    padding: 0;
+    margin: 0;
+    
+    /*Plasserer listen og posisjonen berøres ikke av det som ellers settes inn av tekst*/
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+    
+    
+ /*Css som bakgrunnen av menyens farge og størrelse. */   
+ul.navbar li {
+/*Bakgrunnsfargen på menyknappene */
+    background: white;
+    
+    /*Definerer avstanden mellom de respektive menyknappene */
+    margin: 0.5em 0;
+    
+    /*definerer størrelsen på objektet "navbar"*/
+    padding: 0.3em;
+    
+    /*Definerer farge og størrelse på rammens høyre side i firkanten )*/
+    border-right: 1em solid purple }
+  
+  
+  ul.navbar a 
+  /*ingen strek under linkene*/
+  {text-decoration: none }   
+  
+ /*Til slutt beskriver den linkfarge på linkene i menyen før og etter de har blitt trykket på. */
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+ 
+ /*Beskriver hovedoverskriftens skriftype */
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+           position: absolute;
+            top: 8em;
+   			right:30em;
+ /*    */
+  .sok
+{
+ position: absolute;
+    top: 2em;
+   right:30em;
+    }
+
+ /*lager en strek på siden*/
+  address {
+  /*Gjør krav på et gitt område på utsiden av "address" boksen */	
+    margin-top: 6em;
+    
+    
+    padding-top: 2em;
+    
+/*Lager en linje over objektet "address"*/	
+    border-top: 3px solid #4682B4;
+   }
+  </body>
+  
+  	
+
+
+
+  
+  
+  
+  
+  
