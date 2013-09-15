@@ -20,3 +20,4 @@ oppgave2.js
 og lagt til 
 oppgave3.html
 oppgave3.css
+og oppdatert tekstfilen med svar på LAB2 kontrollspørsmålet.
