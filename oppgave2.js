@@ -6,4 +6,7 @@ document.getElementById("outputbox").innerHTML = "Du har valgt programmeringsspr
 + document.getElementById("spraak").options[document.getElementById("spraak").selectedIndex].value;
 }
 
- 
+ function myFunction()
+{
+alert("denne siden er under konstruksjon");
+}
