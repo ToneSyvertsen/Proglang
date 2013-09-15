@@ -1,4 +1,4 @@
-Kontrollspørsmål
+Kontrollspørsmål LAB 1
 Spørsmålene besvares i egen tekstfil (“ren” tekst, ASCII) med navn readme.txt
 0) Les introduksjon til JavaScript på http://w3schools.com/js/js_intro.asp og svar på følgende
 spørsmål, ­ hva kan JavaScript brukes til?
@@ -22,7 +22,8 @@ spesielt hvis det er mange lister på samme side.
 (http://en.wikipedia.org/wiki/List_of_programming_languages) problemstilling med en lang liste
 av programmeringsspråk?
 
-Wikipedia bruker Class i sin css, dette er nok enklest da de bruker samme class på mange av tabellene. Dette kunne de som nevn tidligere ikke gjort om de brukte id.
+Wikipedia bruker Class i sin css, dette er nok enklest da de bruker samme class på mange av tabellene. 
+Dette kunne de som nevn tidligere ikke gjort om de brukte id.
 De har også valgt å ta bort linjeskift og unødvendig tekst i kildekoden sin.
 
 
@@ -38,7 +39,33 @@ deloppgaven 2? Nevn gjerne hvordan man kunne løse problemene. (Tips: overlapp m
 forskjellige grafiske elementer og tilfelle hvor man ønsker å selektere det første navnet på
 programmeringsspårket i listen)
 
-Alternativ en kan ikke velges før man har trykket på et av de andre alternativene. jeg har valgt å løse dette medd å legge til en ekstra linje øverst, som heter velg programmeringsspråk.
+Alternativ en kan ikke velges før man har trykket på et av de andre alternativene. 
+Jeg har valgt å løse dette med å legge til en ekstra linje øverst, som heter velg programmeringsspråk.
+
 
 
+
+Svar på kontrollspørsmål LAB2:
+
+Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVC
+Arkitekturen. MVC står får Model­View­Controller, som til norsk kan oversettes til
+Modell­Presentasjon­Kontroller.
+
+Slik jeg forstår M-V-C så er modellen Javascript og CSS ene som er brukt i oppgavene. 
+Disse kan man ta vare på å bruke igjen senere.
+
+View høres ut som html siden og brukergrensesnittet som kommer frem når brukeren åpner siden.
+Altså helheten som brukeren ser på maskinen sin, 
+og det som skjer når han trykker på linkene og velger fra rullegardinene. 
+
+Kontrolleren henter ut Javascript og css fra modellen.
+Fargene og plasseringen av de ulike tabellene, og boksene hentes fra Css når siden åpnes,
+og "rullegardinfunksjonen" med språkene og linkene i menyen vil hentes fra JavaScript når det skjer en spørring.
+
+
+
+
+kilder: Jeg har brukt linkene og informasjonen på http://www.w3schools.com/ som hjelp i arbeidet med disse oppgavene.
+		I tillegg har jeg brukt ulike språk på wikipedia for å forstå hva MCVC er. 
+		I starten av LAB1 fikk jeg hjelp av en kamerat.
 
