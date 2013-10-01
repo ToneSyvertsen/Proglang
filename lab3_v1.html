@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hendelser med jQuery</title>
+	<link rel="stylesheet" href="lab3_v1.css" type="text/css"/>
+	<script src="js/jquery-1.8.1.js"></script>
+    <script>
+	
+	$(function() {
+		// Setter en "observatør" for keydown hendelse på noden document.body
+	    $(document.body).on('keydown', function(e) {
+		
+		// Sorterer ut de tastetrykkene man ønsker å gi en respons på
+		// Her brukes det en struktur switch som finnes i de fleste programmeringsspråk
+		switch (e.which) {
+			// tastekode for venstre pil; responsen er en utskrift til konsollen (innebygd i nettlesere)
+			<p id=”keypressed”> case 37:
+				// Her og i andre case skal koden for å skrive til innerHTML skrives (deloppgave 0)
+				console.log( 'venstre pil tast trykket!' );
+				break;
+             	</p>
+			// tastekode for høyre pil
+			case 39:
+				console.log( 'høyre pil tast trykket!' );
+				break;
+			
+			// Her skal koden for å behandle andre tastetrykk skrives (deloppgave 0)
+			case 38:
+				// Her og i andre case skal koden for å skrive til innerHTML skrives (deloppgave 0)
+				console.log( 'opp pil-tast trykket!' );
+				break;
+        
+			// tastekode for høyre pil
+			case 40:
+				console.log( 'ned pil-tast trykket!' );
+				break;
+				
+				
+						
+		}
+		});
+	});
+			
+			
+	
+	</script>
+</head>
+<body>
+	<p>Testside for å "fange" hendelser fra tastatur.</p>
+	<p>
+		<ul>
+			<li>Bruk helst Google Chrome (norsk versjon).</li> 
+			<li>Trykk høyre museknapp og velg "Inspiser element".</li> 
+			<li>Velg "Console" fra hjelpeverktøyets hovedmenyen.</li>
+		</ul>
+	</p>
+	<p>Man har Console også i andre nettlesere. Bruker du en annen nettleser søk på "JavaScript console" for din nettleser for å finne ut hvordan du kan bruke det.</p>
+	 <!-- tekst til inputboksen -->
+
+	
+
+</body>
+</html>
