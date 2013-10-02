@@ -21,3 +21,8 @@ og lagt til
 oppgave3.html
 oppgave3.css
 og oppdatert tekstfilen med svar på LAB2 kontrollspørsmålet.
+
+lagt til 
+lab3_v1.0.html
+jquery-1.8.1.js
+
