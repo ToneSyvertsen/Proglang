@@ -1,6 +1,8 @@
 
 #my_canvas{
 	border: solid;
+	text-align: center;
+    vertical-align: middle;
 	
 	
 }
@@ -16,3 +18,4 @@
  color: purple;
  
  }
+

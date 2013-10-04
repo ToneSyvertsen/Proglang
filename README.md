@@ -20,9 +20,20 @@ oppgave2.js
 og lagt til 
 oppgave3.html
 oppgave3.css
-og oppdatert tekstfilen med svar på LAB2 kontrollspørsmålet.
+og oppdatert tekstfilen med svar på LAB2 kontrollspørsmållab.
 
+
+Etter LAB3
 lagt til 
 lab3_v1.0.html
+lab3_v1.1.html
+lab3_v1.2.html
+lab3_v1.css
+lab3_v2.css
+(jeg vet jeg kunne brukt samme css link)
 jquery-1.8.1.js
+jcanvas.min.js
+
+oppdatert tekstfilen med svar på LAB3 kontrollspørsmållab.
+lagt filene til lab1&2 i en fellesmappe
 

@@ -69,3 +69,59 @@ kilder: Jeg har brukt linkene og informasjonen på http://www.w3schools.com/ som
 		I tillegg har jeg brukt ulike språk på wikipedia for å forstå hva MCVC er. 
 		I starten av LAB1 fikk jeg hjelp av en kamerat.
 
+Kontroll Spørsmål LAB3:
+
+Spørsmålene besvares i README­filen i GitHub.
+0) Hva er fordelen med et eksisterende JavaScript bibliotek som jQuery i motsetning til å
+skrive en “rå” JavaScript for dynamisk endring av HTML sider? 
+
+Det er standard funksjoner som kan brukes, og de vil fungere på tvers av nettlesere.
+Da slipper man å lage koder der hvor det allerede eksisterer bedre koder for det man vil oppnå. Og ofte bare bruke en enkelt kode til å "endre" flere elementer.
+
+
+1) Les denne artikkelen
+http://www.ibm.com/developerworks/web/library/wa­htmlmark/index.html og svar på følgende
+spørsmål: Hva er sterke sider til HTML/CSS og hva er sterke sider til Canvas? I hvilke
+situasjoner er det meningsfult å bruke Canvas?
+HTML/CSS:
+-HTML og CSS er enklere når man skal legge inn tekst med ulike farger og fonter.
+
+-Teksten plukkes opp av søkemaskinenes "speidere". 
+
+-er tilpasset blinde og svaksynte, da den er egnet til opplesning hvor det skilles mellom fotnoter, lister og overskrifter.
+
+-man kan navigere på siden ved å bruke standard "snarveier"
+
+-bruker hyperlinker
+
+-Spesielt HTML5 har mange løsninger rundt de ulike elementene, spesialtilpasset android, iphone ol.
+
+Canvas:
+-er god på grafikk
+-viser samme resultat i nettlesere og android/iphone. 
+-raskere i nettleser. Må ikke oppdatere hele sidene slik som HTML.
+
+Canvas er blant annet bedre når man skal lage f.eks spill.
+
+
+2) Hvilken grafisk presentasjonsmåte (se Innledning til denne oppgaven) hadde du sagt at
+HTML5 Canvas representerer? Forklar.
+
+Piksler. Komplekse oppgaver ville bli utført raskt og bildene ville være av høy kvalitet. 
+
+men kan også være streker. Canvas i HTML5 har abstrakte metoder for slike primitive
+elementer, som for eksempel drawLine.
+
+
+3) EKSTRA (bare for de spesielt interesserte): en mangel på resultatet fra deloppgave 2 er at
+hvis man trykker musen nærme kanten, kan man ikke se hele teksten siden den klippes vekk
+hvis den går utover Canvas grenser; hvordan kunne man “fikse” på det vha. metodene fra
+jCanvas? Lever i lab3_v4.html.
+
+
+X) Hvis du fikk hjelp til å gjennomføre denne oppgaven av noen, samarbeidet med noen, oppgi
+navn på disse personene. Oppgi også ca. tid det tok deg for å gjennomføre denne oppgaven
+(f. eks. 2t 30m)
+
+Jeg sammarbeidet med Jarle i gruppen min på de aller fleste oppgavene. 0.a og 1.a klarte jeg greit alene. Jeg brukte mye tid på prøving og feiling på spørsmål 0. b og 1.b, vet ikke hvor mange timer jeg satt med det. Resten av oppgavene tok ca 3 timer.
+
