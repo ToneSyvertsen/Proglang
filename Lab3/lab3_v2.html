@@ -33,10 +33,17 @@
 		*/
 			// Skriv koordinatene ut til console basert på lab3_v1
 			
-			console.log(mouse);
+			console.log(mouse.x + "," + mouse.y);
+			$("#x").html(mouse.x);
+			$("#y").html(mouse.y);
+		
+			
 			
 			
 			// oppgave 2 a) besvares her
+			
+			
+			
 		   
 			// Her skrives koordinatene ut til en <span> node
 			// Man skriver til innerHTML og også legger på stil (farge osv.)
@@ -58,5 +65,8 @@
 	</p>
 	<canvas id="my_canvas" width="200" height="200"></canvas>
 	<!-- Oppgaveløsning skal implementeres her -->
+	<p>Avstand fra den venstre kanten av Canvas er <span id= "x"</span></p>
+			<p>Avstand fra den øverste kanten av Canvas er <span id= "y"></span></p>
+	
 </body>
 </html>
