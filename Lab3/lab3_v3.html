@@ -39,9 +39,12 @@
 		*/
 			// Skriv koordinatene ut til console basert på lab3_v2
 			// Kopier fra lab2_v2
-			
+			console.log(mouse.x + "," + mouse.y);
 			// Her bare kopieres lignende løsning fra lab3_v2
 			// for å skrive ut til <span> elementnoden
+		
+			$("#x").html(mouse.x);
+			$("#y").html(mouse.y);
 			
 			// Dette er kode for deloppgave 2
 			// Her er to metoder kalt opp etter hverandre og begge tilhører objektet canvas
@@ -83,6 +86,7 @@
 		</ul>
 	</p>
 	<canvas id="my_canvas" width="200" height="200"></canvas>
-	<!-- Oppgaveløsning skal implementeres her -->
+	<p>Avstand fra den venstre kanten av Canvas er <span id= "x"</span></p>
+	<p>Avstand fra den øverste kanten av Canvas er <span id= "y"></span></p>
 </body>
 </html>
