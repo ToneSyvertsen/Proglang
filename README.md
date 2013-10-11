@@ -37,3 +37,14 @@ jcanvas.min.js
 oppdatert tekstfilen med svar på LAB3 kontrollspørsmållab.
 lagt filene til lab1&2 i en fellesmappe
 
+Etter LAB4
+
+lab3.html
+lab3.css
+jquery-1.8.1.js
+js/jqueryscrollTO-1.4.3.1-min.js
+
+den fungerer ikke som hos Janis, ser ut som den ikke reagerer på undergruppene i css'en
+der jeg begynner lage flere nivåer av samme koden. Finner heller ikke ut hvor jeg finner teksten til b og c..
+
+
