@@ -1,0 +1,86 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+<title> LAB4 alfabetisk liste</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" href="lab4.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery-1.8.1.js"></script>
+<script src="js/jqueryscrollTO-1.4.3.1-min.js"></script>
+	<script>
+	$(function() {
+	//query funksjoner
+		$(".firstUL li").each(function() {
+			$(this).click(function() { //reagerer når bruker klikker på bokstaven
+				$(".firstUL li").removeClass("selected"); 
+				$(this).addClass("selected"); //legg til selevctedklassen på den klassen brukeren har trykket på
+				elementClick = $ (this).attr("id"); //henter id fra bokstaven
+				
+				$(".content-container").scrollTO($("#content-for-"+elementClick),800);
+				
+				$(".conten-container div").css( {'background-color': 'ffffff'}):;	
+				$(".conten-container #content-for-"+elementClick).css( {'background-color': '#d2e2fc'}):;		
+				 })
+			});
+		$('.return-to-top').click(function(){
+			$(".firstUL").each(function(){
+				$(".firstUL li").removeClass("selected");
+			}
+			$("#a").addClass("selected");
+			$(".content-container").scrollTO($("#content-for-a"),800);
+			$(".content-container div").css({'background-color': '#d2e2fc'});
+		});
+		});
+			
+	}
+	</script>
+</head>
+<body>
+	<div id="body-container">
+		<div class="glossary-container">
+			<ul class="firstUL">
+   				<li id="a" class="selected">A</li>
+   				<li id="b">B</li>
+   				<li id="c">C</li>
+   				<li id="d">D</li>
+   			</ul>
+   		</div>
+		<div class="content-container">
+			<div id="content-for-a" style="bacground-color:#d2e2fc">
+				<dl>
+					<dt>ActionScript</dt>
+						<dd>ActionScript er et programeringsspråk baser på ECMAScript som blir brukt primært til utvikling av nettsider og
+						programvare for Adobe Flash Player-plattformen, men  også i noen databaseapplikasjoner og grunnleggende robotik.
+						</dd>
+					<dt>AppleScript</dt>
+						<dd>AppleScript er et skript-språk laget av Apple Inc. og det er innebygd i Macintosh operativsystemet siden System 7.
+						</dd>
+				</dl>
+				<p class="return-to-top">Tilbake til toppen</p>
+			</div>	
+			<div id="content-for-b">
+			</div>
+			<div id="content-for-c">
+			</div>
+			<div id="content-for-d">
+			</div>
+		</div>
+	</div>
+	<address> Hentet fra Janis sin fronter link 11 Oktober 2013<br>
+	av Tone </address>
+		
+		
+		
+		
+	
+	
+
+		
+   	
+   
+   		
+	</table>
+</body>
+</html>
+   
+   
