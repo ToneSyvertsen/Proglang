@@ -5,8 +5,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" href="lab4.css" type="text/css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/jquery-1.8.1.js"></script>
-<script src="js/jqueryscrollTO-1.4.3.1-min.js"></script>
+<script src="jquery-1.8.1.js"></script>
+<script src="jquery.scrollTo-1.4.3.1-min.js"></script>
 	<script>
 	$(function() {
 	//query funksjoner
@@ -14,12 +14,12 @@
 			$(this).click(function() { //reagerer når bruker klikker på bokstaven
 				$(".firstUL li").removeClass("selected"); 
 				$(this).addClass("selected"); //legg til selevctedklassen på den klassen brukeren har trykket på
-				elementClick = $ (this).attr("id"); //henter id fra bokstaven
+				elementClick = $(this).attr("id"); //henter id fra bokstaven
 				
-				$(".content-container").scrollTO($("#content-for-"+elementClick),800);
+				$(".content-container").scrollTo($("#content-for-"+elementClick),800);
 				
-				$(".conten-container div").css( {'background-color': 'ffffff'}):;	
-				$(".conten-container #content-for-"+elementClick).css( {'background-color': '#d2e2fc'}):;		
+				$(".conten-container div").css( {'background-color': '#ffffff'});	
+				$(".conten-container #content-for-"+elementClick).css( {'background-color': '#d2e2fc'});		
 				 })
 			});
 		$('.return-to-top').click(function(){
@@ -46,7 +46,7 @@
    			</ul>
    		</div>
 		<div class="content-container">
-			<div id="content-for-a" style="bacground-color:#d2e2fc">
+			<div id="content-for-a" style="background-color:#d2e2fc">
 				<dl>
 					<dt>ActionScript</dt>
 						<dd>ActionScript er et programeringsspråk baser på ECMAScript som blir brukt primært til utvikling av nettsider og
@@ -59,10 +59,26 @@
 				<p class="return-to-top">Tilbake til toppen</p>
 			</div>	
 			<div id="content-for-b">
+			<dl>
+			<dt>B-ord</dt>
+						<dd>vet ikke hva jeg skal skrive her
+						</dd>
+			</dl>
+					
 			</div>
 			<div id="content-for-c">
+			<dl>
+			<dt>C-ord</dt>
+						<dd>vet ikke hva jeg skal skrive her
+						</dd>
+			</dl>
 			</div>
 			<div id="content-for-d">
+			<dl>
+			<dt>D-ord</dt>
+			<dd>vet ikke hva jeg skal skrive her
+						</dd>
+			</dl>
 			</div>
 		</div>
 	</div>
@@ -79,7 +95,7 @@
    	
    
    		
-	</table>
+	
 </body>
 </html>
    
