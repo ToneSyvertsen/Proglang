@@ -10,29 +10,33 @@
 	<script>
 	$(function() {
 	//query funksjoner
-		$(".firstUL li").each(function() {
-			$(this).click(function() { //reagerer når bruker klikker på bokstaven
-				$(".firstUL li").removeClass("selected"); 
-				$(this).addClass("selected"); //legg til selevctedklassen på den klassen brukeren har trykket på
-				elementClick = $(this).attr("id"); //henter id fra bokstaven
+		$( ".firstUL li" ).each(function() {
+			$( this ).click(function() { //reagerer når bruker klikker på bokstaven
+				$( ".firstUL li" ).removeClass( "selected" ); 
+				$( this ).addClass( "selected" ); //legg til selevctedklassen på den klassen brukeren har trykket på
+				elementClick = $( this ).attr( "id" ); //henter id fra bokstaven
 				
-				$(".content-container").scrollTo($("#content-for-"+elementClick),800);
+				$( ".content-container" ).scrollTo($( "#content-for-"+elementClick ), 800);
 				
-				$(".conten-container div").css( {'background-color': '#ffffff'});	
-				$(".conten-container #content-for-"+elementClick).css( {'background-color': '#d2e2fc'});		
-				 })
+				$( ".conten-container div" ).css( {'background-color' : '#ffffff'});	
+				$( ".conten-container #content-for-"+elementClick ).css( {'background-color' : '#d2e2fc'});		
+				 });
 			});
-		$('.return-to-top').click(function(){
-			$(".firstUL").each(function(){
-				$(".firstUL li").removeClass("selected");
-			}
-			$("#a").addClass("selected");
-			$(".content-container").scrollTO($("#content-for-a"),800);
-			$(".content-container div").css({'background-color': '#d2e2fc'});
-		});
-		});
+		$( '.return-to-top' ).click(function(){
+			$( ".firstUL li" ).each(function(){
+				$( ".firstUL li" ).removeClass( "selected" );
+			});
 			
-	}
+			$( "#a" ).addClass( "selected" );
+			$( ".content-container" ).scrollTo($( "#content-for-a" ), 800);
+			$( ".conten-container div" ).css( {'background-color': '#ffffff'});	
+			$( ".conten-container #content-for-a" ).css( {'background-color': '#d2e2fc'});
+			
+		
+		});
+	});
+			
+
 	</script>
 </head>
 <body>
@@ -48,37 +52,79 @@
 		<div class="content-container">
 			<div id="content-for-a" style="background-color:#d2e2fc">
 				<dl>
-					<dt>ActionScript</dt>
-						<dd>ActionScript er et programeringsspråk baser på ECMAScript som blir brukt primært til utvikling av nettsider og
-						programvare for Adobe Flash Player-plattformen, men  også i noen databaseapplikasjoner og grunnleggende robotik.
+			<dt>A#</dt>
+				<dd>A#, også kalt A#.NET eller A Sharp.NET, er en implementasjon av programmeringsspråket Ada i Microsoft sitt .NET-rammeverk. 
+					A# ble utviklet av Department of Computer Science (Institusjonen for Informatikk) i USA og kan fritt distribueres da det ligger under GPL-lisensen. 
+					Siden A# kjører på toppen av CLR så har man integrasjonsmuligheter for alle .NET-bibliotekene.
+				</dd>
+			<dt>ActionScript</dt>
+				<dd>ActionScript er et programeringsspråk baser på ECMAScript som blir brukt primært til utvikling av nettsider og
+					programvare for Adobe Flash Player-plattformen, men  også i noen databaseapplikasjoner og grunnleggende robotik.
+				</dd>
+			<dt>Agol</dt>
+				<dd>ALGOL (forkortelse for ALGOrithmic Language) er en familie av programmeringsspråk som ble utviklet fra midten av 1950-årene, 
+					disse var i bruk til 1980-årene og lenger. Den første standarden ble ferdig i 1958 som et av de tidligste programmeringsspråkene. 
+					Senere versjoner kom i 1960 og 1968. I dag er Algol først og fremst av historisk interesse, men er viktig fordi svært mange 
+					konsept i dagens programmeringsspråk kommer fra Algol, og det blir derfor regnet som viktigere enn Fortran og COBOL, 
+					som var de mest populære språkene på den tid.
 						</dd>
-					<dt>AppleScript</dt>
-						<dd>AppleScript er et skript-språk laget av Apple Inc. og det er innebygd i Macintosh operativsystemet siden System 7.
-						</dd>
-				</dl>
+			<dt>AppleScript</dt>
+				<dd>AppleScript er et skript-språk laget av Apple Inc. og det er innebygd i Macintosh operativsystemet siden System 7.
+				</dd>
+			</dl>
 				<p class="return-to-top">Tilbake til toppen</p>
 			</div>	
 			<div id="content-for-b">
 			<dl>
-			<dt>B-ord</dt>
-						<dd>vet ikke hva jeg skal skrive her
-						</dd>
+			<dt>B</dt>
+				<dd> B er et programmeringsspråk som ble utviklet ved AT&T Bell Laboratories i 1969. 
+					Språket ble opprinnelig utviklet av Ken Thompson, og ble senere videreutviklet av Thompson og Dennis Ritchie.
+				</dd>
+			<dt>BASIC</dt>
+				<dd> Basic er et høynivåspråk hvor en kommando i programmeringsspråket ofte blir til flere, 
+					og mer sammensatte kommandoer, i maskinkoden.
+				</dd>
 			</dl>
-					
+				<p class="return-to-top">Tilbake til toppen</p>	
 			</div>
 			<div id="content-for-c">
 			<dl>
-			<dt>C-ord</dt>
-						<dd>vet ikke hva jeg skal skrive her
-						</dd>
+			<dt>C</dt>
+				<dd>C blir av noen kalt en «høynivåassembler» på grunn av språkets nære knytning mot maskinvarearkitektur. 
+					Denne knytningen og språkets enkelhet har også gjort at det finnes optimale kodegeneratorer for C for nær 
+					sagt alle maskintyper og plattformer, og dette utnyttes i blant av av andre programeringsspråk ved å 
+					bruke C som et mellomnivå på vei mot maskinkode.
+				</dd>
+			<dt>C++</dt>
+				<dd>C++ er en videreutvikling av C som gjør at C kan håndtere objekter. 
+					Er det av dagens dominerende språk. Det meste i Windows skrives i Visual C++, 
+					i spesielt programmer fra Microsoft. 
+			    </dd>
+			<dt>C#</dt>
+				<dd>C# (uttales C sharp) er et programmeringsspråk for objekt-orientert programmering, 
+					utviklet av Microsoft som en del av deres satsing på .NET. Microsoft valgte å basere C# på programmeringsspråkene C++ og Java. 
+					C# ble designet for å balansere styrke (C++) og rask utvikling (Java).
+		  		</dd>			 
 			</dl>
+			<p class="return-to-top">Tilbake til toppen</p>
 			</div>
 			<div id="content-for-d">
 			<dl>
-			<dt>D-ord</dt>
-			<dd>vet ikke hva jeg skal skrive her
-						</dd>
+			<dt>D</dt>
+				<dd>D er et programmeringsspråk utviklet av Walter Bright. Det tar mål av seg til å kombinere ytelse 
+					og fleksibillitet fra språk som C og C++, med høynivåfunksjonalitet og programmerervennlighet fra språk som Ruby og Python. 
+					D er et multiparadigmespråk, og har egne primitiver for å støtte både imperativ, funksjonell, generisk og objektorientert programmering.
+					[1] Språket bruker en syntaks som er svært lik den som brukes i C, C++, Java og C#.
+				</dd>
+			<dt>Delphi</dt>
+				<dd>Delphi er et programvareutviklingsmiljø (Integrated Development Environment (IDE)) basert på programmeringsspråket Pascal. 
+					Grunnlaget var det særdeles populære verktøyet Turbo Pascal for PC med en effektiv kompilator utviklet under ledelse av Anders Hejlsberg. 
+					Borland Software Inc. utviklet en objektbasert utvidelse kalt Object Pascal som de i neste runde tilpasset for bruk mot Windows 
+					(«Objekt Pascal for Windows»). 
+					De neste versjonene ble lansert under navnet Delphi.
+				</dd>
 			</dl>
+			<p class="return-to-top">Tilbake til toppen</p>
 			</div>
 		</div>
 	</div>
