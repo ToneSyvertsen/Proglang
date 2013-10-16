@@ -39,12 +39,11 @@ lagt filene til lab1&2 i en fellesmappe
 
 Etter LAB4
 
-lab3.html
-lab3.css
+lab4.html
+lab4.css
 jquery-1.8.1.js
 js/jqueryscrollTO-1.4.3.1-min.js
 
-den fungerer ikke som hos Janis, ser ut som den ikke reagerer på undergruppene i css'en
-der jeg begynner lage flere nivåer av samme koden. Finner heller ikke ut hvor jeg finner teksten til b og c..
+da skal alt fungere i LAB4 også :)
 
 
