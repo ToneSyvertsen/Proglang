@@ -46,4 +46,6 @@ js/jqueryscrollTO-1.4.3.1-min.js
 
 da skal alt fungere i LAB4 også :)
 
+Sender linken til github denne gangen også jeg, just in case du ikke leter i lab2 og 3.
+
 
