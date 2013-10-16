@@ -26,7 +26,7 @@ body{
 
 #body-container .content-container div{
 	padding-left: 10px;
-	border-bottom: 1px #666666 solid; /* skiller gruppene med en nedre grå strek*/
+	border-bottom: 3px #666666 solid; /* skiller gruppene med en nedre grå strek*/
 }
 
 #body-container .content-container p.return-to-top{

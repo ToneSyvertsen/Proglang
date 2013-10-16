@@ -13,26 +13,32 @@
 		$( ".firstUL li" ).each(function() {
 			$( this ).click(function() { //reagerer når bruker klikker på bokstaven
 				$( ".firstUL li" ).removeClass( "selected" ); 
-				$( this ).addClass( "selected" ); //legg til selevctedklassen på den klassen brukeren har trykket på
+				$( this ).addClass( "selected" ); //legg til selectedklassen på den klassen brukeren har trykket på
 				elementClick = $( this ).attr( "id" ); //henter id fra bokstaven
 				
+				//går til det valgte området
 				$( ".content-container" ).scrollTo($( "#content-for-"+elementClick ), 800);
 				
+				//her skulle bakgrunnsfargen skiftet...
 				$( ".conten-container div" ).css( {'background-color' : '#ffffff'});	
 				$( ".conten-container #content-for-"+elementClick ).css( {'background-color' : '#d2e2fc'});		
 				 });
 			});
+			
+		//A blir markert igjen når man trykker på, "tilbake til toppen"
 		$( '.return-to-top' ).click(function(){
 			$( ".firstUL li" ).each(function(){
 				$( ".firstUL li" ).removeClass( "selected" );
 			});
 			
-			$( "#a" ).addClass( "selected" );
+			
+			//legger til selected til første bokstaven 
+			$( "#a").addClass( "selected" );
+			//ruller til valgt bokstav
 			$( ".content-container" ).scrollTo($( "#content-for-a" ), 800);
+			//farger valgt del av teksten blå (dette fikk jeg ikke til)
 			$( ".conten-container div" ).css( {'background-color': '#ffffff'});	
 			$( ".conten-container #content-for-a" ).css( {'background-color': '#d2e2fc'});
-			
-		
 		});
 	});
 			
@@ -128,8 +134,8 @@
 			</div>
 		</div>
 	</div>
-	<address> Hentet fra Janis sin fronter link 11 Oktober 2013<br>
-	av Tone </address>
+	<address> <center>Hentet fra Janis sin fronter link 11 Oktober 2013<br>
+	av Tone</center> </address>
 		
 		
 		
