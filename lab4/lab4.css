@@ -26,7 +26,7 @@ body{
 
 #body-container .content-container div{
 	padding-left: 10px;
-	border-bottom: 3px #666666 solid; /* skiller gruppene med en nedre grå strek*/
+	border-bottom: 1px #666666 solid; /* skiller gruppene med en nedre grå strek*/
 }
 
 #body-container .content-container p.return-to-top{
@@ -38,7 +38,7 @@ body{
 }
 
 .firstUL{
-	padding: 5px 5px 5px 10px; /*utfylling mot venstre, topp, høyre, bunn*/
+	padding: 0px 0px 0px 10px; /*utfylling mot venstre, topp, høyre, bunn*/
 	margin: 0px;
 	background-color: #3285ef;
 }
@@ -47,17 +47,17 @@ body{
 	background: transparent url(link_sprite_img.jpg) no-repeat scroll 0 0;
 	display: inline;
 	font-family: 'Arial', Veranda,Tahoma;
-	font-size:	18pt;
+	font-size:	16pt;
 	font-weight: bold;
-	padding: 10px 15px 4px; /*utfylling sider*/
-	line-height: 60px;
+	padding: 10px 15px 22px; /*utfylling sider*/
+	line-height: 70px;
 	cursor: pointer;
 }
 
-/*mitt bilde er 102px, så da kom jeg frem til at jeg må sette inn -52px, 
-når jeg skal bruke nederste halvdel*/
+/*0 -57px når jeg skal bruke nederste del, da bildet er 114px*/
+
 .firstUL li.selected{
-	background: transparent url(link_sprite_img.jpg) no-repeat scroll 0px -52px;
+	background: transparent url(link_sprite_img.jpg) no-repeat scroll 0px -57px;
 	color: #ffffff;
 	font-weight: bold;
 }
